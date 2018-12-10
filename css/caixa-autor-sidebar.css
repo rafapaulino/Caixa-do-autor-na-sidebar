@@ -2,66 +2,43 @@
 // --------------------------------------------------
 */
 
-.author-info {
-    background: #F4F4F4;
+.author-info-sidebar {
+    background: #FFF;
     width: 100%;
-    padding: 20px;
+    max-width: 300px;
+    padding: 40px;
     box-sizing: border-box;
     display: inline-block;
-    margin: 10px 0;
+    margin: 10px auto;
     text-align: center;
+    border: 1px solid rgb(209, 208, 208);
 }
 
-.author-info .avatar {
-    width: 80px;
-    height: 80px;
-    border-radius: 100px;
+.author-info-sidebar .avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 160px;
     display: block;
     overflow: hidden;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 20px auto;
 
 }
 
-@media screen and (min-width: 768px) {
-    .author-info .avatar {
-        float: left;
-        margin: 0;
-    }
-}
-
-.author-info .author-description {
+.author-info-sidebar .author-description {
     clear: both;
     width: 100%;
-
+    margin-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) {
-    .author-info .author-description {
-        float: right;
-        width: 75%;
-        clear: none;
-        text-align: left;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .author-info .author-description {
-        width: 83%;
-    }
-}
-
-.author-info .author-description .author-bio {
+.author-info-sidebar .author-description .author-bio {
     font-size: 14px;
     line-height: 22px;
 }
 
-.author-description h4, .comment-author-name {
+.author-info-sidebar .author-description h4 {
     color: #000;
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
-}
-
-.author-description h4 {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
